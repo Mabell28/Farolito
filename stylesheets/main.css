@@ -5578,4 +5578,53 @@ h1 {
   text-align: center;
   font-family: "Lato-Bold"; }
 
+.metodologia-texto h3 {
+  width: 51%;
+  margin: 0 auto;
+  color: black; }
+  .metodologia-texto h3 span {
+    color: coral; }
+
+.comilla-izquierda {
+  position: relative;
+  left: 21%; }
+
+.comilla-derecha {
+  position: relative;
+  right: -73%; }
+
+.circulo-evaluacion {
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+  background-color: coral;
+  margin: 10% auto;
+  border-style: dashed;
+  border-color: white; }
+  .circulo-evaluacion .texto-ev-1 {
+    margin: 0% auto;
+    padding: 15%;
+    color: white;
+    font-size: 28px; }
+
+.texto-ev-2 {
+  margin: 0 auto;
+  color: white; }
+
+.row {
+  margin: 0 auto; }
+
+.evaluacion-cuadros {
+  padding: 2%; }
+
+.texto-evaluacion {
+  font-family: "Lato-Bold";
+  color: coral;
+  margin: 0 auto;
+  width: 28%; }
+
+.evaluacion p {
+  margin: 5% auto;
+  width: 46%; }
+
 /*# sourceMappingURL=main.css.map */
