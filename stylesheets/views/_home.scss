@@ -333,7 +333,7 @@ h1{
 .flecha-empresa{
 		position: absolute;
 		left: 47.5%;
-		top: -34px;
+		top: -7%;
 
 		img{
 			border-radius: 50%;
@@ -388,4 +388,64 @@ h1{
   font-size: 24px;
   }
 
+}
+
+.farolito-centros-educativos{
+	background-color: #77d248;
+	position: relative;
+}
+
+.flecha-centros-educativos{
+	position: absolute;
+	left: 47%;
+	top: -10%;
+
+	img{
+		border-radius: 50%;
+	}
+}
+.texto-centros-educativos{
+	color: white;
+  text-align: center;
+  font-family: "Lato-Bold";
+  padding-top: 7%;
+  font-size: 40px;
+}
+
+.desarrolla-talento{
+	font-family: "Lato-Light";
+  font-size: 29px;
+  text-align: center;
+  color: #fcf07e;
+  margin: 3% auto;
+}
+
+.parrafo-centros-educativos{
+	width: 45%;
+  margin: 0 auto;
+  border-top-style: dashed;
+  border-color: white;
+  padding: 2%;
+  color: white;
+}
+
+.icono-empresa{
+	border-radius: 50%;
+}
+
+.texto-titulo-ce{
+	color: black;
+}
+.texto-parrafo-ce{
+	color: white;
+}
+
+.fila-centros-educativos{
+	padding: 3% 8%;
+  text-align: center;
+
+  h3{
+  	color: white;
+  	font-family: "Lato-Bold";
+  }
 }
