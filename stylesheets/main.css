@@ -5730,7 +5730,7 @@ h1 {
 .imagen-fila-1 {
   position: absolute;
   left: 43%;
-  top: 40%;
+  top: 31%;
   z-index: 10; }
   .imagen-fila-1 img {
     border-radius: 50%; }
@@ -5738,7 +5738,7 @@ h1 {
 .imagen-fila-2 {
   position: absolute;
   left: 43%;
-  top: 65%;
+  top: 52%;
   z-index: 10; }
   .imagen-fila-2 img {
     border-radius: 50%; }
@@ -5746,8 +5746,74 @@ h1 {
 .imagen-fila-3 {
   position: absolute;
   left: 43%;
-  top: 90%; }
+  top: 71%;
+  z-index: 10; }
   .imagen-fila-3 img {
     border-radius: 50%; }
+
+.fila-borde {
+  height: 250px;
+  border-right-style: dashed;
+  border-color: white; }
+
+.btn-oportunidades {
+  text-align: center;
+  background-color: #58C6E7;
+  width: 23%;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 2px solid white; }
+  .btn-oportunidades h4 {
+    padding: 3%;
+    color: white; }
+
+.farolito-empresas {
+  position: relative; }
+
+.flecha-empresa {
+  position: absolute;
+  left: 47.5%;
+  top: -34px; }
+  .flecha-empresa img {
+    border-radius: 50%; }
+
+.texto-empresas {
+  color: coral;
+  text-align: center;
+  font-family: "Lato-Bold";
+  padding-top: 7%;
+  font-size: 40px; }
+
+.contrata-talento {
+  font-family: "Lato-Light";
+  font-size: 29px;
+  text-align: center;
+  color: gray;
+  margin: 3% auto; }
+
+.parrafo-empresas {
+  width: 45%;
+  margin: 0 auto;
+  border-top-style: dashed;
+  border-color: coral;
+  padding: 2%; }
+
+.fila-empresa {
+  padding: 3% 8%;
+  text-align: center; }
+  .fila-empresa h3 {
+    color: gray;
+    font-family: "Lato-Bold"; }
+
+.btn-contactanos {
+  width: 20%;
+  margin: 6% auto;
+  text-align: center;
+  background-color: coral;
+  border-radius: 17px; }
+  .btn-contactanos h4 {
+    color: white;
+    padding: 5%;
+    font-size: 24px; }
 
 /*# sourceMappingURL=main.css.map */
