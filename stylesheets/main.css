@@ -5598,9 +5598,10 @@ h1 {
   width: 450px;
   border-radius: 50%;
   background-color: coral;
-  margin: 10% auto;
   border-style: dashed;
-  border-color: white; }
+  border-color: white;
+  position: absolute;
+  left: 35%; }
   .circulo-evaluacion .texto-ev-1 {
     margin: 0% auto;
     padding: 15%;
@@ -5614,7 +5615,12 @@ h1 {
 .row {
   margin: 0 auto; }
 
+.evaluacion {
+  position: relative;
+  margin: 3% auto; }
+
 .evaluacion-cuadros {
+  margin-top: 16%;
   padding: 2%; }
 
 .texto-evaluacion {
@@ -5626,5 +5632,122 @@ h1 {
 .evaluacion p {
   margin: 5% auto;
   width: 46%; }
+
+.analisis {
+  margin: 0 auto;
+  width: 50%; }
+
+.texto-analisis {
+  margin: 0 auto;
+  font-family: "Lato-Bold";
+  color: coral; }
+
+.btn-ver-mas {
+  background-color: #58C6E7;
+  width: 17%;
+  margin: 7% auto;
+  border-radius: 20px; }
+  .btn-ver-mas h4 {
+    color: white;
+    text-align: center;
+    padding: 8%;
+    font-size: 22px; }
+
+.flecha-postulantes {
+  position: absolute;
+  left: 46%;
+  top: -4%; }
+  .flecha-postulantes img {
+    border-radius: 50%; }
+
+.farolito-postulantes {
+  background-color: #58C6E7;
+  position: relative; }
+  .farolito-postulantes p {
+    color: white;
+    font-size: 32px;
+    margin: 2%; }
+
+.texto-farolito {
+  color: white;
+  text-align: center;
+  font-family: "Lato-Bold";
+  padding-top: 7%;
+  font-size: 40px; }
+
+.postulantes {
+  padding: 4%; }
+
+.numero-1 {
+  padding-top: 1%; }
+  .numero-1 h1 {
+    color: white;
+    font-size: 80px;
+    text-align: right; }
+
+.numero {
+  padding-top: 10%; }
+  .numero h1 {
+    color: white;
+    font-size: 80px;
+    text-align: right;
+    margin: 0; }
+
+.crea h3 {
+  color: white;
+  font-size: 35px;
+  margin-right: 25%; }
+
+.texto {
+  width: 43%; }
+  .texto p {
+    margin: 0 18%;
+    font-size: 25px; }
+
+.fila {
+  padding-top: 3%; }
+
+.postula {
+  padding-top: 12%;
+  border-top-style: dashed;
+  border-right-style: dashed;
+  border-color: white; }
+  .postula h3 {
+    width: 65%;
+    margin: 0;
+    color: white; }
+
+.mejora {
+  padding-top: 12%;
+  border-top-style: dashed;
+  border-right-style: dashed;
+  border-color: white; }
+  .mejora h3 {
+    width: 70%;
+    margin: 0;
+    color: white; }
+
+.imagen-fila-1 {
+  position: absolute;
+  left: 43%;
+  top: 40%;
+  z-index: 10; }
+  .imagen-fila-1 img {
+    border-radius: 50%; }
+
+.imagen-fila-2 {
+  position: absolute;
+  left: 43%;
+  top: 65%;
+  z-index: 10; }
+  .imagen-fila-2 img {
+    border-radius: 50%; }
+
+.imagen-fila-3 {
+  position: absolute;
+  left: 43%;
+  top: 90%; }
+  .imagen-fila-3 img {
+    border-radius: 50%; }
 
 /*# sourceMappingURL=main.css.map */
