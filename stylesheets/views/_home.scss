@@ -398,7 +398,7 @@ h1{
 .flecha-centros-educativos{
 	position: absolute;
 	left: 47%;
-	top: -10%;
+	top: -4%;
 
 	img{
 		border-radius: 50%;
@@ -448,4 +448,144 @@ h1{
   	color: white;
   	font-family: "Lato-Bold";
   }
+}
+
+.btn-educativos-contacto{
+	width: 20%;
+  margin: 6% auto;
+  text-align: center;
+  background-color: rgb(119, 210, 72);
+  border-radius: 17px;
+  border: 3px solid white;
+
+  h4{
+  color: white;
+  padding: 2%;
+  font-size: 24px;
+  }
+
+}
+
+.lista-oportunidades{
+	min-height: 100%;
+	position: relative;
+}
+
+	.flecha-oportunidades{
+		position: absolute;
+		left: 48%;
+		top: -5%;
+
+		img{
+			border-radius: 50%;
+		}
+	}
+
+.fondo-img-oportunidades{
+	height: 146%;
+	background-image: url(../assets/img/img-03.png);
+	background-repeat: no-repeat;
+}
+
+.fila-oportunidades{
+	border-bottom-style: dotted;
+	border-bottom-color: gray;
+  width: 60%;
+  padding: 1%;
+}
+.titulo-oportunidades{
+	text-align: center;
+	margin: 4;
+	padding-top: 9%;
+	color: gray;
+	font-family: "Lato-Bold";
+	font-size: 37px;
+}
+
+.asesor-servicio{
+	margin-left: 5%;
+	color: #58C6E7;
+
+	h4{
+	border-bottom: 2px solid #58C6E7;
+  text-align: center;
+  margin-right: 41%;
+	}
+}
+
+.parrafo-oportunidades{
+		
+	text-align: left;
+}
+
+.ver-mas{
+	width: 13%;
+	margin-left: 26%;
+	margin-top: 22%;
+	border: 2px solid coral;
+	border-radius: 30px;
+
+	h3{
+		font-family: "Lato-Bold";
+		font-size: 16px;
+		color: coral;
+	}
+}
+
+.ver-todos{
+	width: 12%;
+  margin: 3% auto;
+  background-color: gray;
+  border-radius: 15px;
+
+  h5{
+  text-align: center;
+  padding: 4%;
+  font-size: 18px;
+  color: white;
+  }
+}
+
+.blog-farolito{
+	position: relative;
+}
+
+
+	.flecha-blog{
+		position: absolute;
+		left: 46%;
+		top: -20%;
+	img{
+		border-radius: 50%;
+	}
+}
+
+.titulo-blog{
+	padding: 8%;
+}
+
+.blog{
+	background-color: #bdc3c7;
+  margin: 0% 15%;
+  position: relative;
+  width: 25%;
+  padding: 4%;
+}
+
+.icono-blog{
+	position: absolute;
+  margin: 0 auto;
+  left: 40%;
+  top: -13%;
+
+  img{
+  	border-radius: 50%;
+  }
+}
+
+.parafo-blog{
+	 width: 90%;
+  text-align: left;
+  padding: 6%;
+  margin: 0 auto;
 }
